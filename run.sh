@@ -8,7 +8,7 @@
 # module load ffmpeg/6.1.1
 
 source /gs/bs/tga-RLA/atamayama/ex/Marigold/venv/marigold/bin/activate
-
+export HF_HOME=$(pwd)/cache
 python run.py \
     --checkpoint prs-eth/marigold-v1-0 \
     --denoise_steps 50 \

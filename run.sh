@@ -9,8 +9,6 @@
 
 source /gs/bs/tga-RLA/atamayama/ex/Marigold/venv/marigold/bin/activate
 
-pip list
-
 python run.py \
     --checkpoint prs-eth/marigold-v1-0 \
     --denoise_steps 50 \

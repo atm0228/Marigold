@@ -1,13 +1,13 @@
 #!/bin/sh
 #$ -cwd
 #$ -l node_q=1
-#$ -l h_rt=24:00:00
+#$ -l h_rt=0:20:00
 #$ -N test
 # CUDA環境の読込
 # module load cuda/12.3.2  cudnn/9.0.0 
 # module load ffmpeg/6.1.1
 
-source ~/venv/marigold/bin/activate
+source /gs/bs/tga-RLA/atamayama/ex/Marigold/venv/marigold/bin/activate
 
 pip list
 

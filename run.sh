@@ -13,5 +13,5 @@ python run.py \
     --checkpoint prs-eth/marigold-v1-0 \
     --denoise_steps 50 \
     --ensemble_size 10 \
-    --input_rgb_dir input/in-the-wild_example \
-    --output_dir output/in-the-wild_example
+    --input_rgb_dir input2 \
+    --output_dir output2
